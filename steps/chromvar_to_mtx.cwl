@@ -3,7 +3,7 @@ cwlVersion: v1.0
 class: CommandLineTool
 requirements:
   - class: DockerRequirement
-    dockerImageId: mruffalo/chromvar_rdata_to_mtx
+    dockerPull: mruffalo/chromvar_rdata_to_mtx
 
 inputs:
   rdata_file:

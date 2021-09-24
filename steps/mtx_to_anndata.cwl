@@ -3,7 +3,7 @@ cwlVersion: v1.0
 class: CommandLineTool
 requirements:
   - class: DockerRequirement
-    dockerImageId: mruffalo/chromvar_mtx_to_anndata
+    dockerPull: mruffalo/chromvar_mtx_to_anndata
 
 inputs:
   rdata_file:

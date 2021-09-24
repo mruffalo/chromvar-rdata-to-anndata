@@ -8,7 +8,7 @@ inputs:
 
 outputs:
   anndata_file:
-    type: File 
+    type: File
     outputSource: mtx_to_anndata/anndata_file
 
 steps:
